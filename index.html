@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arvex Roofing &amp; Contracting | NY &middot; NJ &middot; PA | (908) 570-9537</title>
+  <meta name="description" content="Arvex Roofing &amp; Contracting: shingle and flat roofing, custom copper and sheet metal, siding and interior renovations across New York, New Jersey and Pennsylvania. Free estimates. Call (908) 570-9537.">
+  <link rel="icon" type="image/jpeg" href="images/logo-mark.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lets CSS hide scroll-reveal content only when JS is running to reveal it again -->
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          // "Rugged & industrial" font row (PROMPT-LIBRARY §2a): flat roofs, copper sheet metal and gut renovations in the
+          // NYC area, and their own logo sets ARVEX in heavy, wide block capitals over a city skyline. Archivo Black is the
+          // display + headline font (no separate display font in this row), Work Sans the body.
+          fontFamily: {
+            sans: ['"Work Sans"', 'system-ui', 'sans-serif'],
+            display: ['"Archivo Black"', 'system-ui', 'sans-serif'],
+            headline: ['"Archivo Black"', 'system-ui', 'sans-serif']
+          },
+          // Base hue (PROMPT-LIBRARY §2b, rule a): their Instagram logo = a red "AR" monogram and red ARVEX wordmark on
+          // black. 600 = the logo red (white text ~5.5:1); 500 = a brighter red, the accent ON DARK (eyebrows, stars, arrows,
+          // map dots); 700 = hover; 900/950 = the logo's near-black, tinted a touch warm toward the red.
+          colors: {
+            brand: { 500: '#f2434b', 600: '#cc1f2b', 700: '#a3141f', 900: '#211b1c', 950: '#121011' }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body id="top" class="bg-white font-sans text-slate-800 antialiased">
+
+  <!-- NAV: top strip + white bar (logo | tagline | links | phone) -->
+  <div class="bg-brand-900 h-2.5"></div>
+
+  <header id="site-header" class="sticky top-0 z-40 bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-3 xl:gap-6">
+
+      <!-- Logo + tagline. Client tweak: the wordmark steps down on small phones and at lg (1024-1279) so the header fits on
+           one line at every width. -->
+      <a href="#top" class="header-brand flex items-center gap-3 max-[319px]:gap-2 xl:gap-4 shrink-0" aria-label="Arvex Roofing &amp; Contracting, back to top">
+        <!-- {{LOGO}}: their REAL logo, the Instagram profile picture (red AR monogram + ARVEX ROOFING over a city skyline, on
+             black). Only a 150px copy exists, so it is shown as a small rounded tile. ASK for the full-size / vector logo. -->
+        <img src="images/logo-mark.jpg" alt="" class="w-11 h-11 max-[339px]:w-9 max-[339px]:h-9 max-[299px]:w-8 max-[299px]:h-8 lg:max-xl:w-10 lg:max-xl:h-10 xl:w-12 xl:h-12 shrink-0 object-contain rounded-md">
+        <span class="leading-none">
+          <span class="block font-display font-bold text-[19px] max-[419px]:text-[17px] max-[359px]:text-[15px] max-[319px]:text-[13px] max-[299px]:text-[11px] lg:max-xl:text-[16px] xl:text-[21px] text-slate-800 whitespace-nowrap">ARVEX</span>
+          <span class="block text-[9px] max-[339px]:text-[8px] tracking-[0.18em] max-[339px]:tracking-[0.1em] uppercase text-slate-500 mt-1 whitespace-nowrap">Roofing &amp; Contracting</span>
+        </span>
+      </a>
+
+      <!-- Desktop links -->
+      <nav class="hidden lg:flex items-center gap-3 xl:gap-5 2xl:gap-6 whitespace-nowrap text-[14px] xl:text-[15px] font-medium text-slate-700" aria-label="Main">
+
+        <div class="relative group">
+          <button class="flex items-center gap-1 py-6 hover:text-brand-600 focus:outline-none">
+            Services
+            <svg class="w-3.5 h-3.5 text-slate-400 transition-transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 8 5 5 5-5"/></svg>
+          </button>
+          <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition absolute left-0 top-full w-56 bg-white border border-slate-200 rounded-b-lg shadow-lg py-2">
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Shingle Roofing</a>
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Flat Roofing</a>
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Copper &amp; Sheet Metal</a>
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Siding</a>
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Kitchens &amp; Baths</a>
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Interior Renovations</a>
+          </div>
+        </div>
+
+        <div class="relative group">
+          <button class="flex items-center gap-1 py-6 hover:text-brand-600 focus:outline-none">
+            About Us
+            <svg class="w-3.5 h-3.5 text-slate-400 transition-transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 8 5 5 5-5"/></svg>
+          </button>
+          <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition absolute left-0 top-full w-56 bg-white border border-slate-200 rounded-b-lg shadow-lg py-2">
+            <a href="#about" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">About Us</a>
+            <a href="#reviews" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Reviews</a>
+          </div>
+        </div>
+
+        <a href="#projects" class="py-6 hover:text-brand-600">Projects</a>
+
+        <a href="#areas" class="py-6 hover:text-brand-600">Service Area</a>
+        <a href="#contact" class="py-6 hover:text-brand-600">Contact</a>
+      </nav>
+
+      <!-- Phone block -->
+      <a href="tel:9085709537" class="hidden md:block text-right shrink-0">
+        <span class="hidden xl:block text-[10px] font-bold tracking-[0.16em] uppercase text-slate-500">Call us today</span>
+        <span class="flex items-center justify-end gap-2 text-brand-600 font-extrabold text-lg xl:text-[26px] leading-tight">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+          (908) 570-9537
+        </span>
+      </a>
+
+      <!-- Free estimate CTA -->
+      <a href="#contact" class="hidden lg:inline-flex shrink-0 items-center whitespace-nowrap bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm uppercase tracking-wide px-4 xl:px-5 py-3 rounded-md shadow-sm transition-colors">
+        Free Estimate
+      </a>
+
+      <!-- Mobile toggle -->
+      <button id="menu-btn" class="menu-btn lg:hidden p-2 -mr-2 text-slate-700" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path class="bar bar-1" d="M4 7h16"/><path class="bar bar-2" d="M4 12h16"/><path class="bar bar-3" d="M4 17h16"/></svg>
+      </button>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div id="mobile-menu" class="lg:hidden border-t border-slate-200 bg-white">
+      <div class="mobile-menu-inner px-4 py-3 flex flex-col text-[15px] font-medium text-slate-700 divide-y divide-slate-100">
+        <a href="#services" class="py-3">Services</a>
+        <a href="#about" class="py-3">About Us</a>
+        <a href="#projects" class="py-3">Projects</a>
+        <a href="#areas" class="py-3">Service Area</a>
+        <a href="#contact" class="py-3">Contact</a>
+        <a href="tel:9085709537" class="py-4 text-brand-600 font-extrabold text-xl">(908) 570-9537</a>
+        <a href="#contact" class="my-3 text-center bg-brand-600 text-white font-bold uppercase tracking-wide py-3 rounded-md">Free Estimate</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO: full-width photo under the nav, centered tagline, slide dots -->
+  <section class="cut-hero relative isolate min-h-[70vh] lg:min-h-[78vh] flex items-center overflow-hidden bg-brand-900">
+    <!-- {{HERO_IMAGE}}: STOCK (Unsplash photo-1641217658611, free licence), NOT their job: a row of New York brownstones
+         and rowhouses. Their only photos are low-res Instagram reel covers with a play button baked in. Swap for their own. -->
+    <img src="images/hero-brownstones.jpg" alt="A row of brick and limestone brownstones on a New York street" class="hero-img absolute inset-0 -z-10 w-full h-full object-cover object-[60%_40%] sm:object-[62%_40%]">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-r from-brand-950/80 via-brand-950/55 to-brand-950/20"></div>
+    <!-- Client tweak: under 640px the hero copy spans the full width and sits on top of the photo; a light even tint keeps it
+         readable on phones only (same as Roofing World). Backport candidate for the template. -->
+    <div class="absolute inset-0 -z-10 bg-brand-950/40 sm:hidden"></div>
+
+    <!-- Left-aligned copy block: eyebrow, big condensed headline, paragraph -->
+    <!-- Client tweak: pb-32 under 640px so the slide dots (bottom-24) never sit on the paragraph on short phones; pb-28 on short (<=720px tall) desktop screens for the same reason; headline one step smaller on landscape phones (<=480px tall). Backport candidates for the template -->
+    <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-32 sm:py-24 lg:[@media(max-height:720px)]:pb-28">
+      <div class="max-w-xl hero-in">
+        <!-- Sources (27 Oct 2026):
+             - Google listing (user screenshot) "Arvex Roofing Contractor", Roofing contractor, 719 90th Ave N, St. Petersburg,
+               FL 33702 (Street View = a single-storey house), "Open 24 hours", +1 908-570-9537, no website, no reviews, no photos
+               (Street View only), "Claim this business" = UNCLAIMED. 908 is a NORTH-CENTRAL NEW JERSEY area code.
+             - Instagram @arvexroofingandcontracting (supplied; 11 followers, 7 posts, 5 Sep - 9 Oct 2026). Bio: "ARVEX ROOFING
+               & CONTRACTING / INTERIORS / SHINGLE ROOFS / COPPER WORK / FLAT ROOFING / SIDING". EVERY caption that names a
+               region says "Serving NY, NJ & PA" (hashtags #brooklyn #statenisland #nyc), slogan "ARVEX - Above The Rest",
+               "Contact us for a free estimate" / "Free Estimates", "Roofing - Interior Renovations - General Contracting",
+               "Roofing - Architectural Sheet Metal - Custom Copper". Logo = red AR over a city skyline.
+             - So the page follows THEIR OWN words: NY / NJ / PA, and the Florida street address is NOT shown. CONFIRM where they
+               are based and whether the St. Petersburg listing is theirs at all.
+             - Not found: website, email, licence (no DBPR/NY/NJ record found under "Arvex"), reviews, owner name.
+             - The Google "Web results" also showed an Instagram reel from "Elite Construction & Roofing LLC": a different
+               company, NOT used. -->
+        <p class="text-brand-500 font-bold uppercase tracking-[0.12em] text-xs sm:text-sm">NY &middot; NJ &middot; PA &middot; <span class="whitespace-nowrap">Roofing &amp; Contracting</span></p>
+        <h1 class="font-headline font-bold uppercase text-white text-5xl max-[439px]:text-[42px] max-[399px]:text-[36px] max-[359px]:text-[32px] max-[319px]:text-[27px] max-[289px]:text-[24px] sm:text-6xl sm:[@media(max-height:480px)]:text-5xl lg:text-7xl leading-[0.95] mt-3">
+          Roofing Above the Rest
+        </h1>
+        <p class="text-white/90 text-base sm:text-lg leading-relaxed mt-6 max-w-lg">
+          Shingle and flat roofs, custom copper and sheet metal, siding and interior renovations, done right to the final detail. <strong class="font-bold text-white">Contact us for a free estimate.</strong>
+        </p>
+      </div>
+    </div>
+
+    <!-- Slide dots (static for now; wire up when more than one hero image exists) -->
+    <div class="absolute bottom-24 sm:bottom-20 left-1/2 -translate-x-1/2 flex gap-2" aria-hidden="true">
+      <span class="w-3.5 h-3.5 rounded-full bg-white"></span>
+      <span class="w-3.5 h-3.5 rounded-full border-2 border-white/80"></span>
+    </div>
+  </section>
+
+  <!-- STATS CARD: overlaps the bottom edge of the hero. Only list stats the client can back up. Sources (27 Oct 2026, all
+       from their Instagram):
+       - 3 States: "Serving NY, NJ & PA" in their captions.
+       - 5 Trades: their bio list (interiors, shingle roofs, copper work, flat roofing, siding).
+       - NYC: their shingle-roof reel hashtags (#nyc #brooklyn #statenisland).
+       - Free Estimates: "Contact us for a free estimate" / "Free Estimates" in their captions.
+       NOT claimed: years in business (the account started Sep 2026), licence, insurance, warranty, jobs completed, reviews
+       (none). Four tiles (LAYOUT-2 §6: tile deleted, lg:grid-cols-4). -->
+  <section class="relative z-10 -mt-14 sm:-mt-16 px-4 sm:px-6 lg:px-8 pb-8">
+    <div class="max-w-6xl mx-auto bg-white rounded-xl shadow-xl ring-1 ring-slate-200/70 p-3 sm:p-4 reveal">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-3">
+
+        <div class="bg-slate-50 rounded-lg px-3 py-5 text-center stat-tile">
+          <!-- pin: three states served -->
+          <svg class="w-6 h-6 mx-auto text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          <p class="font-headline font-bold text-4xl max-[379px]:text-[30px] max-[319px]:text-[23px] sm:text-[40px] leading-none text-slate-800 mt-3">3</p>
+          <p class="text-[13px] text-slate-600 mt-2">States: NY &middot; NJ &middot; PA</p>
+        </div>
+
+        <div class="bg-slate-50 rounded-lg px-3 py-5 text-center stat-tile">
+          <!-- toolbox: services offered -->
+          <svg class="w-6 h-6 mx-auto text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M9 8V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V8M3 13h18"/></svg>
+          <p class="font-headline font-bold text-4xl max-[379px]:text-[30px] max-[319px]:text-[23px] sm:text-[40px] leading-none text-slate-800 mt-3">5</p>
+          <p class="text-[13px] text-slate-600 mt-2">Trades, Roof to Interior</p>
+        </div>
+
+        <div class="bg-slate-50 rounded-lg px-3 py-5 text-center stat-tile">
+          <!-- buildings: NYC (their shingle-roof reel is tagged #nyc #brooklyn #statenisland). "Copper" was tried here but
+               overflowed the tile on phones up to 390px in Archivo Black. -->
+          <svg class="w-6 h-6 mx-auto text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20.5h18M4.5 20.5V11L9 7.5l4.5 3.5v9.5M13.5 20.5V5.5h6v15"/><path d="M7.5 20.5v-4h3v4M16 9h1.5M16 12.5h1.5M16 16h1.5"/></svg>
+          <p class="font-headline font-bold text-4xl max-[379px]:text-[30px] max-[319px]:text-[23px] sm:text-[40px] leading-none text-slate-800 mt-3">NYC</p>
+          <p class="text-[13px] text-slate-600 mt-2">Brooklyn &amp; Staten Island</p>
+        </div>
+
+        <div class="bg-slate-50 rounded-lg px-3 py-5 text-center stat-tile">
+          <!-- tag: free estimates -->
+          <svg class="w-6 h-6 mx-auto text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12.2V4.5a1 1 0 0 1 1-1h7.7l8.3 8.3a1.5 1.5 0 0 1 0 2.1l-6.6 6.6a1.5 1.5 0 0 1-2.1 0Z"/><circle cx="8" cy="8" r="1.5"/></svg>
+          <p class="font-headline font-bold text-4xl max-[379px]:text-[30px] max-[319px]:text-[23px] sm:text-[40px] leading-none text-slate-800 mt-3">Free</p>
+          <p class="text-[13px] text-slate-600 mt-2">Estimates</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUSTED BRANDS: logos scroll right to left, edges blurred. Only list brands the client is actually certified with / carries. -->
+  <section class="pb-14 reveal-fade" aria-label="What we do">
+    <div class="relative max-w-6xl mx-auto overflow-hidden">
+      <div class="marquee-track flex w-max items-center">
+        <!-- Set 1 -->
+        <!-- No brands or certifications are published anywhere, so the strip lists the trades from their Instagram bio and
+             captions. ASK which brands they install / are certified with. -->
+        <ul class="flex shrink-0 items-center gap-16 pr-16">
+          <li class="brand-logo">Shingle Roofs</li>
+          <li class="brand-logo">Flat Roofing</li>
+          <li class="brand-logo">Copper Work</li>
+          <li class="brand-logo">Sheet Metal</li>
+          <li class="brand-logo">Siding</li>
+          <li class="brand-logo">Interiors</li>
+        </ul>
+        <!-- Set 2: exact duplicate for a seamless loop -->
+        <ul class="flex shrink-0 items-center gap-16 pr-16" aria-hidden="true">
+          <li class="brand-logo">Shingle Roofs</li>
+          <li class="brand-logo">Flat Roofing</li>
+          <li class="brand-logo">Copper Work</li>
+          <li class="brand-logo">Sheet Metal</li>
+          <li class="brand-logo">Siding</li>
+          <li class="brand-logo">Interiors</li>
+        </ul>
+      </div>
+
+      <!-- Blurred + faded side edges -->
+      <div class="marquee-edge left-0 bg-gradient-to-r from-white to-transparent" style="-webkit-mask-image:linear-gradient(to right,#000 30%,transparent);mask-image:linear-gradient(to right,#000 30%,transparent)"></div>
+      <div class="marquee-edge right-0 bg-gradient-to-l from-white to-transparent" style="-webkit-mask-image:linear-gradient(to left,#000 30%,transparent);mask-image:linear-gradient(to left,#000 30%,transparent)"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES: copy on the left, round photo collage on the right (4 quarter-circle segments,
+       floating badge + info card). Collage photos: ALL STOCK (Unsplash), see CIRCLE_PHOTOS. -->
+  <section id="services" class="relative overflow-hidden py-16 sm:py-24 bg-gradient-to-br from-red-50 via-white to-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 lg:grid-rows-[auto_1fr_16rem]">
+
+      <!-- Left: copy -->
+      <div class="col-span-full lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:max-w-md xl:max-w-xl mb-8 lg:mb-0 lg:pb-3 reveal">
+        <p class="text-brand-600 font-bold uppercase tracking-[0.14em] text-xs sm:text-sm">Our Services</p>
+        <h2 class="font-headline font-bold uppercase text-slate-800 text-4xl max-[359px]:text-[30px] max-[299px]:text-[26px] sm:text-5xl leading-[1.02] mt-3">Roofing &amp; Contracting</h2>
+        <!-- Copy = their Instagram bio trades + captions ("Roofing - Interior Renovations - General Contracting",
+             "Roofing - Architectural Sheet Metal - Custom Copper", "Built for long-term protection, durability, and a clean
+             finished appearance"). -->
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed mt-5 max-w-lg">New shingle roofs and flat roofing systems, field-formed copper and architectural sheet metal, vinyl siding, and full interior renovations. Built for long-term protection and a clean finished look, across New York, New Jersey and Pennsylvania.</p>
+
+      </div>
+
+      <!-- Right: round collage -->
+      <div id="svc-circle" class="relative z-10 mx-auto lg:mx-0 mb-10 lg:mb-5 lg:-mt-16 w-full max-w-[460px] aspect-square col-span-full lg:col-span-2 lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:justify-self-end reveal-fade">
+
+        <!-- The circle: 2x2 grid clipped round; the grid gap makes the white cross -->
+        <div class="absolute inset-0 rounded-full overflow-hidden grid grid-cols-2 grid-rows-2 gap-1.5 bg-white shadow-xl ring-1 ring-slate-200/60">
+          <div class="circle-seg relative overflow-hidden bg-slate-200"><img src="images/circle-1.jpg" alt="" class="absolute inset-0 w-full h-full object-cover"><img src="" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0"></div>
+          <!-- All 4 quarters are photos. Never use a solid/patterned brand-colour quarter here (client rule, 2026-09-26). -->
+          <div class="circle-seg relative overflow-hidden bg-slate-200"><img src="images/circle-brownstones.jpg" alt="" class="absolute inset-0 w-full h-full object-cover"><img src="" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0"></div>
+
+          <div class="circle-seg relative overflow-hidden bg-slate-200"><img src="images/circle-kitchen-reno.jpg" alt="" class="absolute inset-0 w-full h-full object-cover"><img src="" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0"></div>
+          <div class="circle-seg relative overflow-hidden bg-slate-200"><img src="images/circle-flat-roofs.jpg" alt="" class="absolute inset-0 w-full h-full object-cover"><img src="" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0"></div>
+        </div>
+
+        <!-- Floating round badge, top-left: their logo mark on a white badge -->
+        <span class="absolute -top-2 left-[6%] grid place-items-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-brand-950 ring-4 ring-white shadow-lg overflow-hidden" aria-hidden="true"><img src="images/logo-mark.jpg" alt="" class="w-full h-full object-cover"></span>
+        <!-- Floating round badge, bottom-right: a roofline -->
+        <span class="absolute bottom-[8%] -right-1 sm:right-0 grid place-items-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-brand-600 text-white ring-4 ring-white shadow-lg" aria-hidden="true">
+          <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12 12 4l9.5 8"/><path d="M5.5 10v9.5h13V10"/><path d="M10 19.5v-5h4v5"/></svg>
+        </span>
+
+        <!-- Floating card, left edge: no reviews exist yet, so it shows the states named in their captions. -->
+        <div class="absolute left-0 sm:-left-10 top-[58%] bg-white rounded-lg shadow-xl ring-1 ring-slate-200/70 px-4 py-3">
+          <p class="text-[10px] font-bold uppercase tracking-wider text-slate-500">Proudly Serving</p>
+          <div class="flex items-center gap-2 mt-0.5">
+            <span class="font-headline font-bold text-2xl leading-none text-slate-800">3</span>
+            <span class="text-brand-600 text-sm font-bold leading-none">NY &middot; NJ &middot; PA</span>
+          </div>
+        </div>
+      </div>
+      <!-- SERVICE TILES: 6 photo tiles. On desktop tiles 1-2 rise to fill the space beside/under the text and circle
+           (grid rows adapt to the paragraph length); tiles 2 and 3 have a curved edge that follows the circle.
+           Services = their Instagram bio (shingle roofs, flat roofing, copper work, siding, interiors); "Interiors" is split
+           into Kitchens & Baths + Interior Renovations, as in their two renovation posts. ALL 6 photos are STOCK (Unsplash:
+           4XMHsy4Rvi8, photo-1758443231027, photo-1769981002961, photo-1792630862386, photo-1584622650111,
+           photo-1768321902794), NOT their work: their only photos are low-res reel covers. ASK for real job photos. -->
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-1 lg:row-start-2 lg:row-span-2 overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/tile-roofing.jpg" alt="A roofer carrying a bundle of shingles across a roof being re-roofed" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[50%_50%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Shingle Roofing</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-2 lg:row-start-2 lg:row-span-2 cut-svc overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/tile-flat-roofing.jpg" alt="Flat roofs on brick apartment buildings in New York City, seen from above" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[50%_50%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Flat Roofing</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-3 lg:row-start-2 lg:row-span-2 cut-svc overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/tile-copper-sheet-metal.jpg" alt="Green copper roofs, spires and dormers on a historic brick building" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[50%_40%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Copper &amp; Sheet Metal</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-1 lg:row-start-4 overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/tile-siding.jpg" alt="Grey vinyl siding on a single-storey house with a front porch and railing" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[50%_50%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Siding</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-2 lg:row-start-4 overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/tile-kitchen-bath.jpg" alt="A renovated bathroom with a glass shower, double vanity and wood-look floor" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[50%_50%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Kitchens &amp; Baths</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-3 lg:row-start-4 overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/tile-interior-renovations.jpg" alt="A brownstone parlour floor opened up to the ceiling joists during a full interior renovation" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[50%_60%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Interior Renovations</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ABOUT US: big quote + statement + who said it on the left, wide team photo on the right.
+       Use a real quote from the owner/manager. -->
+  <section id="about" class="relative py-16 sm:py-24 bg-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-14 items-center">
+
+      <!-- Left: quote -->
+      <div class="reveal">
+        <!-- Opening quote mark -->
+        <svg class="w-14 h-14 sm:w-16 sm:h-16 text-brand-600 rotate-180" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.983 3v7.391c0 5.704-3.731 9.570-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4V3h9.983Zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983V3H24Z"/></svg>
+
+        <!-- REAL words of the company: their own shingle-roof reel caption (28 Sep 2026), "From installation to the final
+             detail, we take pride in doing the job right." Client tweak: one size step down at 1024-1279px (lg:max-xl:text-[44px])
+             so long words fit the column in Archivo Black. Credited to the company: no owner is named anywhere they publish.
+             ASK for an owner quote, name and title. -->
+        <h2 class="font-headline font-medium uppercase text-slate-700 text-4xl max-[359px]:text-[30px] max-[299px]:text-[26px] sm:text-5xl lg:max-xl:text-[44px] leading-[1.05] mt-8">We take pride in doing the job right.</h2>
+
+        <!-- Who said it -->
+        <div class="flex items-center gap-4 mt-10">
+          <!-- Closing quote mark -->
+          <svg class="w-11 h-11 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.983 3v7.391c0 5.704-3.731 9.570-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4V3h9.983Zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983V3H24Z"/></svg>
+          <div>
+            <p class="font-bold text-lg text-slate-800 leading-tight">Arvex Roofing &amp; Contracting</p>
+            <p class="text-sm text-slate-600">Above the Rest &middot; NY &middot; NJ &middot; PA</p>
+          </div>
+        </div>
+
+        <hr class="mt-8 border-slate-300">
+
+        <div class="mt-8 flex flex-wrap items-center gap-x-8 gap-y-3">
+          <a href="#projects" class="btn-arrow inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-headline font-medium uppercase tracking-wide text-base px-6 py-3 rounded-sm transition-colors">
+            About Us
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+          </a>
+          <a href="tel:9085709537" class="inline-flex items-center gap-2 font-headline font-medium uppercase tracking-wide text-base text-slate-800 hover:text-brand-600 transition-colors">
+            (908) 570-9537
+            <svg class="w-4 h-4 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: STOCK (Unsplash RGkNFjRPyO0, free licence), NOT their crew: two roofers in harnesses laying shingles. They
+           publish no crew photos. ASK for a team / owner photo. -->
+      <div class="drop-shadow-xl photo-hover reveal" style="--reveal-delay:120ms"><img src="images/about-roofers.jpg" alt="Two roofers in safety harnesses laying new shingles on a roof" loading="lazy" class="cut-tl w-full aspect-[4/3] lg:aspect-[16/11] object-cover object-[50%_40%]"></div>
+
+
+    </div>
+    <!-- Roof peak: the next section's white rises into this one -->
+    <div class="roof-peak" aria-hidden="true"></div>
+  </section>
+
+  <!-- OUR PROJECTS: alternating rows (text + bullets beside a photo).
+       The 3 rows are REAL jobs from their Instagram captions (shingle roof 28 Sep, copper wall panels 18 Sep, interior
+       renovation 2 Oct 2026), but the PHOTOS ARE STOCK (Unsplash GXITWKvgm-k, photo-1593663826732, photo-1600684388091):
+       their reel covers are 360px wide with a play button baked in. No towns or customers are named, so none are shown.
+       Swap in frames from their reels / real photos. -->
+  <section id="projects" class="py-16 sm:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center max-w-2xl mx-auto reveal">
+        <p class="text-brand-600 font-bold uppercase tracking-[0.14em] text-xs sm:text-sm">What We Do</p>
+        <h2 class="font-headline font-bold uppercase text-slate-800 text-4xl max-[359px]:text-[30px] max-[299px]:text-[26px] sm:text-5xl leading-[1.02] mt-3">Recent Work</h2>
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed mt-5">From the roof deck to the last coat of paint: a few of the jobs we&rsquo;ve finished across NY, NJ and&nbsp;PA.</p>
+      </div>
+
+      <!-- Alternating rows: text left / image right, then image left / text right, and so on.
+           To add a project, copy a row; odd rows have the text first (image on the right), even rows have the image first. -->
+      <div class="mt-12 sm:mt-14 space-y-10 sm:space-y-12">
+
+        <!-- Project 1: text left, image right. REAL job: shingle-roof reel, 28 Sep 2026 (hashtags #brooklyn #statenisland). STOCK photo (Unsplash GXITWKvgm-k). -->
+        <article class="grid gap-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-14 items-center reveal">
+          <div>
+            <p class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.14em] text-brand-600">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              New York &middot; Shingle Roofing
+            </p>
+            <h3 class="font-headline font-semibold text-3xl sm:text-4xl leading-tight text-slate-800 mt-3">New Shingle Roofing System</h3>
+            <p class="text-slate-600 text-base leading-relaxed mt-4">A new shingle roof installed with careful attention to layout, ridge, roof penetrations and flashing. Built for long-term protection, durability and a clean finished&nbsp;look.</p>
+            <ul class="mt-5 space-y-2.5 text-sm text-slate-700">
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Proper layout and ridge installation</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Flashing at every roof penetration</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Clean finishing details</li>
+            </ul>
+          </div>
+          <div class="drop-shadow-xl photo-hover"><img src="images/project-roof-tearoff.jpg" alt="A roofer tearing old shingles off a house roof with a long-handled shovel" loading="lazy" class="cut-tl w-full aspect-[4/3] lg:aspect-[7/5] object-cover object-[50%_40%]"></div>
+        </article>
+
+        <!-- Project 2: image left, text right. REAL job: custom copper reel, 18 Sep 2026. STOCK photo (Unsplash photo-1593663826732). -->
+        <article class="grid gap-8 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-14 items-center reveal">
+          <div class="drop-shadow-xl photo-hover"><img src="images/project-copper-panels.jpg" alt="Copper wall panels with standing seams curving around a building, seen from below" loading="lazy" class="cut-tr w-full aspect-[4/3] lg:aspect-[7/5] object-cover object-[50%_40%]"></div>
+          <div>
+            <p class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.14em] text-brand-600">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              Architectural Sheet Metal
+            </p>
+            <h3 class="font-headline font-semibold text-3xl sm:text-4xl leading-tight text-slate-800 mt-3">Custom Copper Wall Panels</h3>
+            <p class="text-slate-600 text-base leading-relaxed mt-4">Precision-fabricated copper wall panels and sheet-metal details, field-formed and installed for a clean, watertight, long-lasting exterior&nbsp;system.</p>
+            <ul class="mt-5 space-y-2.5 text-sm text-slate-700">
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Field-formed copper panels</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Every seam and transition detailed</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Flashing and terminations sealed</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Project 3: text left, image right. REAL job: "Complete Interior Renovation" reel, 2 Oct 2026. STOCK photo (Unsplash photo-1600684388091). -->
+        <article class="grid gap-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-14 items-center reveal">
+          <div>
+            <p class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.14em] text-brand-600">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              Interior &middot; Kitchen &amp; Bath
+            </p>
+            <h3 class="font-headline font-semibold text-3xl sm:text-4xl leading-tight text-slate-800 mt-3">Complete Interior Renovation</h3>
+            <p class="text-slate-600 text-base leading-relaxed mt-4">A new kitchen with modern cabinetry, countertops, backsplash and flooring, an updated bathroom, and fresh finishes throughout. Clean, functional and built to&nbsp;last.</p>
+            <ul class="mt-5 space-y-2.5 text-sm text-slate-700">
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Cabinets, countertops and backsplash</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> New vanity, fixtures and tile</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Refinished floors, paint and trim</li>
+            </ul>
+          </div>
+          <div class="drop-shadow-xl photo-hover"><img src="images/project-interior-kitchen.jpg" alt="A renovated kitchen with matte black cabinets, a black range hood and wood flooring" loading="lazy" class="cut-tl w-full aspect-[4/3] lg:aspect-[7/5] object-cover object-[50%_60%]"></div>
+        </article>
+
+      </div>
+
+      <div class="mt-10 text-center">
+        <a href="#contact" class="inline-flex items-center border-2 border-brand-600 text-brand-600 hover:bg-brand-600 hover:text-white font-bold text-sm uppercase tracking-wide px-7 py-3 rounded-md transition-colors">Free Estimate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS: heading + horizontally scrolling review cards that hang over a dark band at the bottom.
+       Use real reviews only (copy each <article>). Cards keep their natural height, so short and long reviews both work. -->
+  <section id="reviews" class="relative bg-slate-100 pt-16 sm:pt-20 pb-24 border-t border-slate-200">
+    <!-- Dark band the cards overlap (the footer picks up from here) -->
+    <div class="absolute inset-x-0 bottom-0 h-48 bg-brand-900" aria-hidden="true"></div>
+
+    <div class="relative">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-end justify-between gap-6 reveal">
+        <h2 class="font-headline font-medium uppercase text-slate-800 text-3xl max-[359px]:text-[26px] sm:text-4xl lg:text-[2.6rem] leading-[1.1] max-w-3xl">Worked With Us? Tell Your Neighbors</h2>
+        <!-- Arrows -->
+        <div class="hidden sm:flex shrink-0 gap-2">
+          <button type="button" id="reviews-prev" class="grid place-items-center w-11 h-11 rounded-full bg-white text-slate-700 ring-1 ring-slate-300 hover:bg-brand-600 hover:text-white hover:ring-brand-600 transition-colors" aria-label="Previous reviews">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+          </button>
+          <button type="button" id="reviews-next" class="grid place-items-center w-11 h-11 rounded-full bg-white text-slate-700 ring-1 ring-slate-300 hover:bg-brand-600 hover:text-white hover:ring-brand-600 transition-colors" aria-label="Next reviews">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Track: starts aligned with the page container and runs off the right edge -->
+      <div id="reviews-track" class="reviews-track mt-10 flex items-start gap-5 overflow-x-auto snap-x snap-mandatory pb-2 reveal-fade" style="--reveal-delay:100ms">
+
+        <!-- No reviews exist yet (Google: "Write a review", none; Instagram posts have 0 comments, 27 Oct 2026), so instead of
+             quotes the track holds two invitation cards. Swap in real reviews (with permission) as they come in. -->
+        <article class="review-card snap-start shrink-0 w-[85%] sm:w-[46%] lg:w-[31%] bg-white rounded-sm shadow-md p-7 sm:p-8">
+          <p class="text-brand-500 text-2xl tracking-[0.2em] leading-none" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+          <p class="text-slate-700 text-[15px] leading-relaxed mt-5">Did we put a new roof on your home, install copper or siding, or renovate your kitchen? Be one of the first to review us on Google. A few words help your neighbors find a contractor they can&nbsp;trust.</p>
+          <div class="flex items-center gap-4 mt-7">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-white ring-1 ring-slate-200" aria-hidden="true">
+              <svg class="w-6 h-6" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.9 6.1C12.4 13.6 17.7 9.5 24 9.5Z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17.5Z"/><path fill="#FBBC05" d="M10.5 28.7A14.5 14.5 0 0 1 9.5 24c0-1.6.3-3.2.8-4.7l-7.9-6.1A24 24 0 0 0 0 24c0 3.9.9 7.5 2.6 10.8l7.9-6.1Z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.5-5.8c-2.1 1.4-4.9 2.3-8.4 2.3-6.3 0-11.6-4.1-13.5-9.8l-7.9 6.1C6.5 42.6 14.6 48 24 48Z"/></svg>
+            </span>
+            <div>
+              <!-- Search link (the place ID was not captured). Swap for their "Ask for reviews" link from Google Business Profile. -->
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Arvex+Roofing+Contractor" target="_blank" rel="noopener" class="font-bold text-brand-600 hover:text-brand-700 leading-tight">Review Us on Google &rarr;</a>
+              <p class="text-sm text-slate-500">Arvex Roofing Contractor</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card snap-start shrink-0 w-[85%] sm:w-[46%] lg:w-[31%] bg-white rounded-sm shadow-md p-7 sm:p-8">
+          <p class="text-slate-700 text-[15px] leading-relaxed">See our latest roofs, copper work and renovations, or send us a message on Instagram. Prefer to talk? Call <span class="whitespace-nowrap">(908) 570-9537</span>.</p>
+          <div class="flex items-center gap-4 mt-7">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-white ring-1 ring-slate-200" aria-hidden="true">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="#E1306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="#E1306C"/></svg>
+            </span>
+            <div>
+              <a href="https://www.instagram.com/arvexroofingandcontracting/" target="_blank" rel="noopener" class="font-bold text-brand-600 hover:text-brand-700 leading-tight">Follow Us on Instagram &rarr;</a>
+              <p class="text-sm text-slate-500">@arvexroofingandcontracting</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREAS: dark panel, copy on the left, dotted map with city dots on the right.
+       Map = a dotted map of eastern PA, NJ and the NYC area (NY, NJ, PA, CT, DE, MD outlines from glynnbird/usstatesgeojson,
+       rings clamped to the box), box lon 76.9-72.6 W, lat 41.6 N down, lon scaled by cos 40.6 N:
+       x = (lon + 76.9) * 232.6, y = (41.6 - lat) * 306.3 in the 1000x620 box; dot left = x/10 %, top = y/6.2 %.
+       Dots = the only places they name: Brooklyn (40.6782 N 73.9442 W) and Staten Island (40.5795 N 74.1502 W), both hashtags
+       on their shingle-roof reel. NJ and PA are named in every caption ("Serving NY, NJ & PA") but no towns, so they are
+       state labels only. The Google listing's St. Petersburg, FL address is NOT shown. ASK where they are based + which towns. -->
+
+  <section id="areas" class="bg-slate-100 py-14 sm:py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="relative overflow-hidden rounded-sm bg-brand-900 shadow-xl reveal">
+        <div class="grid gap-10 lg:grid-cols-2 lg:gap-6 items-center p-7 sm:p-12 lg:p-16">
+
+          <!-- Left: copy -->
+          <div class="relative z-10">
+            <h2 class="font-headline font-medium uppercase text-white text-4xl max-[359px]:text-[30px] max-[299px]:text-[26px] sm:text-5xl lg:text-6xl lg:max-xl:text-[52px] leading-[1.02]">Serving NY, NJ &amp;&nbsp;PA</h2>
+            <p class="text-[#ff9a9e] font-semibold text-lg sm:text-xl leading-snug mt-6 max-w-lg">Proudly serving New York, New Jersey and Pennsylvania.</p>
+            <p class="text-white/75 text-sm sm:text-base leading-relaxed mt-5 max-w-lg">Recent roofs in Brooklyn and Staten Island, with roofing, copper and renovation work across the tri-state area. Not sure we cover your town? Call <span class="whitespace-nowrap">(908) 570-9537</span> and&nbsp;ask.</p>
+            <a href="#contact" class="mt-8 inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-headline font-medium uppercase tracking-wide text-base px-6 py-3 rounded-sm transition-colors">
+              Free Estimate
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Right: map. Dots are positioned in % of this box, so they stay put at every size. -->
+          <div class="relative w-full aspect-[1000/620] lg:scale-[1.12] lg:origin-center">
+            <svg class="absolute inset-0 w-full h-full" viewBox="0 0 1000 620" aria-hidden="true">
+              <defs>
+                <pattern id="areaDots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="2.3" fill="#5b4446"/></pattern>
+                <clipPath id="areaClip">
+                  <polygon points="727,227 728,227 729,227 729,228 729,231 728,231 727,230 727,228 727,227"/> <polygon points="665,276 665,275 665,276 666,276 664,279 663,279 664,278 665,276"/> <polygon points="641,326 640,326 637,329 633,331 632,331 628,333 625,334 623,336 620,337 617,338 616,338 615,336 615,334 616,333 618,331 618,327 617,324 621,320 624,320 625,318 627,310 629,307 629,306 629,301 628,301 627,300 628,297 630,293 633,292 634,292 635,293 639,294 646,293 654,291 657,292 658,294 659,299 660,303 662,305 661,308 659,311 653,317 648,323 648,322 646,324 643,328 642,327 641,326"/> <polygon points="729,219 729,220 728,221 727,220 727,219 727,218 728,218 729,218 729,219"/> <polygon points="813,-40 807,-40 805,-40 811,-40 813,-40 812,-40 815,-40 817,-40 819,-40 824,-40 825,-40 823,-40 821,-40 813,-40 812,-40 809,-40 807,-40 814,-40 820,-40 822,-40 836,-40 837,-40 850,-40 851,-40 850,-40 848,-40 847,-40 844,-40 843,-40 842,-40 841,-40 839,-40 843,-40 845,-40 836,-40 825,-40 811,-40 789,-40 791,-40 794,-40 790,-40 788,-40 787,-20 786,-5 784,22 783,37 783,38 782,44 782,45 782,46 782,49 782,50 782,51 781,68 780,72 779,93 795,119 788,122 787,123 764,137 760,139 758,140 738,153 746,166 747,168 749,171 751,175 755,180 754,188 754,190 753,193 753,194 752,194 749,195 748,199 747,201 745,202 739,205 737,207 731,211 725,219 725,220 724,221 724,224 724,227 724,228 724,229 725,231 725,232 725,233 725,234 724,233 724,232 723,231 723,229 723,228 722,228 722,229 721,230 719,230 718,231 717,234 717,236 718,237 720,239 722,240 724,245 725,247 727,246 728,245 732,239 732,237 738,229 738,228 737,225 741,224 750,228 751,227 754,225 755,221 758,217 760,215 761,215 763,215 767,214 769,212 774,210 775,210 780,212 786,210 787,210 791,209 791,207 793,202 794,200 795,201 796,201 797,202 799,203 800,203 801,203 803,203 805,204 807,205 807,206 807,208 813,208 813,207 813,201 814,198 814,197 816,197 820,203 822,205 825,206 827,207 827,206 830,205 838,207 854,213 872,206 873,204 873,197 874,194 881,192 888,192 897,195 898,195 908,194 917,194 927,195 933,195 947,193 960,194 963,191 973,188 979,187 985,188 992,187 1003,185 1008,181 1009,179 1012,178 1018,172 1029,168 1032,163 1036,157 1040,157 1040,154 1040,143 1040,142 1040,141 1040,136 1040,135 1040,136 1040,137 1040,134 1040,135 1040,136 1040,142 1040,144 1040,149 1040,143 1040,142 1040,141 1040,142 1040,143 1040,147 1040,151 1040,157 1040,159 1040,160 1040,163 1040,168 1040,171 1040,170 1040,171 1040,174 1040,173 1040,172 1040,170 1040,167 1040,168 1040,172 1040,174 1040,176 1040,184 1040,186 1040,185 1040,183 1040,182 1040,181 1040,182 1040,181 1040,179 1040,177 1040,175 1040,172 1040,169 1040,167 1040,165 1040,164 1040,162 1040,160 1040,159 1040,160 1040,161 1040,160 1040,161 1040,162 1040,168 1040,171 1040,173 1040,184 1040,192 1040,225 1030,232 1006,241 966,255 964,256 963,256 961,257 939,266 925,272 904,282 894,286 873,292 859,297 851,299 846,300 845,300 836,300 835,299 833,295 825,297 816,301 808,303 802,305 776,311 771,310 765,310 757,312 744,311 731,311 732,310 732,309 727,309 721,311 719,311 713,313 703,318 690,323 690,320 690,318 689,317 687,316 686,314 684,315 676,315 674,315 672,315 672,314 671,313 673,311 674,309 674,308 672,306 667,305 665,302 665,299 666,295 666,294 667,292 670,288 670,282 669,281 669,280 669,278 670,277 671,275 670,274 669,273 671,258 672,256 674,252 676,248 677,246 686,227 689,222 690,220 691,216 693,210 694,209 699,185 697,185 695,183 665,166 653,159 652,158 625,143 620,140 589,121 583,118 568,108 513,74 514,73 514,71 499,53 489,52 471,49 467,46 462,38 456,36 446,29 432,9 430,-2 430,-6 431,-10 429,-40 421,-40 415,-40 409,-40 408,-40 381,-40 377,-40 374,-40 362,-40 358,-40 341,-40 340,-40 331,-40 330,-40 329,-40 214,-40 213,-40 185,-40 181,-40 179,-40 175,-40 129,-40 128,-40 102,-40 101,-40 80,-40 20,-40 15,-40 -5,-40 -6,-40 -9,-40 -10,-40 -15,-40 -25,-40 -40,-40 -39,-40 -31,-40 -23,-40 -21,-40 -14,-40 -12,-40 -5,-40 -1,-40 3,-40 5,-40 10,-40 14,-40 24,-40 30,-40 36,-40 39,-40 41,-40 47,-40 50,-40 54,-40 60,-40 63,-40 66,-40 68,-40 78,-40 86,-40 88,-40 89,-40 91,-40 96,-40 99,-40 108,-40 112,-40 114,-40 124,-40 129,-40 132,-40 140,-40 149,-40 154,-40 156,-40 159,-40 160,-40 162,-40 163,-40 164,-40 163,-40 162,-40 160,-40 156,-40 151,-40 147,-40 145,-40 143,-40 144,-40 145,-40 147,-40 148,-40 151,-40 153,-40 155,-40 156,-40 158,-40 162,-40 164,-40 167,-40 173,-40 175,-40 178,-40 180,-40 179,-40 178,-40 177,-40 175,-40 170,-40 166,-40 156,-40 154,-40 152,-40 151,-40 149,-40 148,-40 147,-40 144,-40 142,-40 140,-40 139,-40 140,-40 139,-40 126,-40 125,-40 124,-40 125,-40 126,-40 127,-40 137,-40 143,-40 152,-40 161,-40 165,-40 171,-40 182,-40 199,-40 209,-40 214,-40 216,-40 221,-40 230,-40 239,-40 242,-40 251,-40 254,-40 264,-40 280,-40 328,-40 341,-40 364,-40 372,-40 370,-40 376,-40 392,-40 398,-40 409,-40 427,-40 436,-40 441,-40 442,-40 444,-40 448,-40 482,-40 488,-40 506,-40 511,-40 607,-40 640,-40 668,-40 704,-40 762,-40 827,-40 826,-40 823,-40 821,-40 828,-40 822,-40 816,-40 820,-40 823,-40 824,-40 828,-40 836,-40 837,-40 839,-40 838,-40 834,-40 832,-40 831,-40 825,-40 816,-40 813,-40"/> <polygon points="465,466 480,459 502,449 506,445 507,443 506,441 498,428 495,424 474,403 456,386 436,366 434,366 428,362 428,361 425,351 427,331 427,329 426,326 426,324 419,316 415,314 410,314 408,315 398,310 397,309 396,304 395,301 394,278 396,260 402,252 404,252 407,253 411,253 417,248 429,227 430,225 430,223 414,198 414,196 414,195 414,193 411,193 410,192 411,187 416,183 421,180 426,178 430,175 433,173 436,171 446,160 449,157 450,155 449,155 449,154 448,152 460,141 469,128 473,120 473,115 473,114 474,110 479,99 481,96 489,86 497,81 513,74 568,108 583,118 589,121 620,140 625,143 652,158 653,159 665,166 695,183 697,185 699,185 694,209 693,210 691,216 690,220 689,222 686,227 677,246 676,248 674,252 672,256 671,258 669,273 665,272 663,277 658,280 655,284 653,288 654,290 653,291 641,293 637,293 632,292 631,292 630,293 627,297 626,308 626,314 624,318 624,319 621,319 617,322 616,324 617,330 612,337 612,338 611,340 612,346 614,348 619,350 622,351 623,351 626,353 626,355 626,356 626,357 627,356 629,355 630,354 631,353 634,351 634,352 633,353 634,353 635,352 636,353 638,353 639,353 641,352 642,351 643,351 644,351 645,352 646,353 647,353 654,356 657,357 661,361 663,362 673,364 675,364 675,362 676,354 673,348 670,345 671,344 673,344 675,347 679,355 680,365 681,376 681,383 680,398 679,404 676,417 671,439 667,452 666,458 667,459 667,460 665,465 661,490 660,496 656,517 653,551 652,561 652,563 651,564 651,565 648,569 641,585 630,605 618,626 617,629 610,639 607,641 602,641 602,643 601,645 603,648 604,648 604,650 604,652 597,660 589,660 580,660 579,660 578,660 567,660 553,660 549,660 546,660 544,660 539,660 535,660 532,660 526,660 524,660 523,660 518,660 508,660 511,660 510,660 503,660 493,660 492,660 490,660 487,660 484,660 477,660 473,660 472,660 469,660 463,660 460,660 457,660 450,660 449,660 448,660 452,660 454,660 456,660 464,660 466,660 467,660 468,660 464,660 462,660 451,660 447,660 442,660 436,660 435,660 436,660 434,660 432,660 431,660 430,660 427,660 422,660 418,660 417,660 415,660 412,660 410,660 403,660 404,660 402,660 401,660 394,660 392,660 386,660 385,660 383,660 379,660 376,660 375,660 371,660 369,660 366,660 364,660 362,660 359,660 357,660 351,660 350,660 349,660 347,660 344,660 341,660 339,660 334,660 331,660 329,660 324,658 324,656 317,655 316,652 315,649 316,644 319,644 319,643 322,624 323,623 323,619 320,617 318,616 317,615 316,614 315,614 313,611 312,603 319,596 319,595 323,586 325,582 331,572 332,571 333,569 333,566 338,559 339,557 340,556 345,553 345,551 351,546 355,543 371,536 379,536 387,534 393,531 399,526 406,519 411,514 422,500 425,496 429,493 439,484 448,475 465,466"/> <polygon points="-40,575 -40,576 -40,575 -40,509 -40,503 -40,502 -40,501 -40,485 -40,466 -40,441 -40,437 -40,368 -40,344 -40,331 -40,309 -40,301 -40,294 -40,247 -40,245 -40,230 -40,229 -40,214 -40,208 -40,188 -40,185 -40,179 -40,165 -40,162 -40,161 -40,159 -40,156 -40,153 -40,152 -40,148 -40,145 -40,143 -40,139 -40,131 -40,120 -40,117 -40,113 -40,108 -40,103 -40,102 -40,90 -40,88 -40,82 -40,81 -40,80 -40,79 -40,76 -40,73 -40,70 -40,68 -40,56 -40,50 -40,42 -40,34 -40,31 -40,22 -40,19 -40,-21 -40,-22 -40,-31 -40,-40 -25,-40 -15,-40 -10,-40 -9,-40 -6,-40 -5,-40 15,-40 20,-40 80,-40 101,-40 102,-40 128,-40 129,-40 175,-40 179,-40 181,-40 185,-40 213,-40 214,-40 329,-40 330,-40 331,-40 340,-40 341,-40 358,-40 362,-40 374,-40 377,-40 381,-40 408,-40 409,-40 415,-40 421,-40 429,-40 431,-10 430,-6 430,-2 432,9 446,29 456,36 462,38 467,46 471,49 489,52 499,53 514,71 514,73 513,74 497,81 489,86 481,96 479,99 474,110 473,114 473,115 473,120 469,128 460,141 448,152 449,154 449,155 450,155 449,157 446,160 436,171 433,173 430,175 426,178 421,180 416,183 411,187 410,192 411,193 414,193 414,195 414,196 414,198 430,223 430,225 429,227 417,248 411,253 407,253 404,252 402,252 396,260 394,278 395,301 396,304 397,309 398,310 408,315 410,314 415,314 419,316 426,324 426,326 427,329 427,331 425,351 428,361 428,362 434,366 436,366 456,386 474,403 495,424 498,428 506,441 507,443 506,445 502,449 480,459 465,466 448,475 439,484 429,493 425,496 422,500 411,514 406,519 399,526 393,531 387,534 379,536 371,536 355,543 351,546 345,551 342,549 336,545 326,541 316,540 307,540 304,540 303,540 294,542 293,543 288,545 282,548 275,554 270,560 259,575 256,575 253,575 206,575 203,575 178,575 157,575 155,575 154,575 121,575 117,575 112,575 95,575 89,575 77,575 44,575 43,575 26,576 22,576 21,576 2,576 1,576 -23,576 -34,576 -37,576 -40,576 -40,575"/> <polygon points="1040,-40 1040,-38 1040,-12 1040,1 1040,56 1040,55 1040,58 1040,59 1040,63 1040,66 1040,70 1040,78 1040,79 1040,81 1040,85 1040,82 1040,81 1040,82 1040,81 1040,80 1040,83 1040,84 1040,83 1040,86 1040,87 1040,86 1040,88 1040,90 1040,92 1040,89 1040,86 1040,85 1040,87 1040,88 1040,92 1040,95 1040,92 1040,94 1040,95 1040,97 1040,99 1040,98 1040,97 1040,98 1040,99 1040,101 1040,104 1040,99 1034,98 1030,101 1027,101 1023,102 1022,104 1019,104 1018,102 1016,103 1015,105 1014,105 1012,107 1007,102 1004,101 1003,101 1002,101 1000,101 998,101 996,100 996,101 993,101 990,102 988,102 987,102 986,101 985,101 984,102 983,102 980,105 980,106 980,107 979,108 978,109 976,109 975,109 974,109 974,108 974,107 974,106 972,104 969,106 964,102 963,102 957,103 949,107 949,106 947,105 942,105 942,106 941,108 939,109 935,109 931,109 930,108 929,108 930,106 931,105 932,104 931,103 930,100 928,97 926,97 926,98 925,101 923,104 922,104 922,105 917,106 916,107 911,112 910,112 907,116 906,118 905,119 904,121 902,121 902,120 901,120 896,120 895,119 894,120 893,120 889,124 886,127 886,128 883,131 882,131 882,132 881,135 881,136 882,137 881,138 877,139 869,135 867,135 867,133 866,133 860,135 854,140 852,140 849,145 846,148 840,145 838,145 834,148 830,150 820,152 816,157 814,157 811,161 806,166 802,166 798,168 796,173 792,169 787,172 787,175 785,178 784,179 783,177 784,175 783,174 782,174 779,176 776,179 775,180 774,183 771,183 771,181 768,179 767,179 757,183 756,185 754,188 755,180 751,175 749,171 747,168 746,166 738,153 758,140 760,139 764,137 787,123 788,122 795,119 779,93 780,72 781,68 782,51 782,50 782,49 782,46 782,45 782,44 783,38 783,37 784,22 786,-5 787,-20 788,-40 790,-40 794,-40 839,-40 853,-40 854,-40 877,-40 895,-40 905,-40 939,-40 950,-40 959,-40 961,-40 963,-40 964,-40 973,-40 978,-40 1021,-40 1040,-40"/> <polygon points="310,618 308,616 307,615 307,613 310,615 310,618"/> <polygon points="313,611 311,611 310,608 309,605 309,604 312,603 313,611"/> <polygon points="304,540 307,540 316,540 326,541 336,545 342,549 345,551 345,553 340,556 339,557 338,559 333,566 333,569 332,571 331,572 325,582 323,586 319,584 311,595 305,597 300,606 299,606 299,607 299,608 299,609 299,610 299,611 300,613 301,616 304,618 305,619 306,619 309,622 309,623 311,624 311,625 310,625 309,631 309,635 311,637 310,641 308,640 305,644 305,645 304,650 305,655 307,658 307,659 309,660 313,660 317,660 320,660 321,660 323,660 324,660 327,660 328,660 330,660 333,660 335,660 340,660 341,660 342,660 347,660 348,660 347,660 348,660 350,660 349,660 347,660 346,660 349,660 348,660 349,660 350,660 352,660 354,660 361,660 363,660 368,660 369,660 371,660 369,660 371,660 381,660 388,660 394,660 398,660 404,660 405,660 411,660 416,660 419,660 420,660 419,660 420,660 421,660 423,660 427,660 428,660 430,660 429,660 426,660 425,660 422,660 421,660 409,660 399,660 383,660 381,660 363,660 362,660 359,660 356,660 350,660 346,660 343,660 342,660 330,660 326,660 325,660 321,660 320,660 318,660 312,660 308,660 306,660 305,660 304,660 303,660 295,660 288,660 287,660 281,660 280,660 279,660 278,660 277,660 274,660 273,660 268,660 266,660 265,660 264,660 261,633 261,632 259,603 259,601 258,588 258,587 259,582 259,575 270,560 275,554 282,548 288,545 293,543 294,542 303,540 304,540"/> <polygon points="107,660 108,660 111,660 115,660 116,660 117,660 118,660 113,660 111,660 110,660 105,660 104,660 99,660 100,660 102,660 103,660 104,660 105,660 104,660 102,660 103,660 102,660 101,660 100,660 99,660 94,660 95,660 94,660 93,660 91,660 90,660 89,660 91,660 93,660 94,660 95,660 94,660 93,660 92,660 91,660 90,660 89,660 88,660 87,660 86,660 85,660 84,660 83,660 80,660 79,660 80,660 81,660 83,660 84,660 86,660 87,660 86,660 85,660 86,660 87,660 89,660 90,660 89,660 90,660 89,660 91,660 92,660 93,660 95,660 99,660 100,660 101,660 102,660 103,660 104,660 106,660 107,660 108,660 113,660 116,660 118,660 119,660 117,660 116,660 115,660 114,660 115,660 116,660 120,660 121,660 122,660 120,660 118,660 117,660 116,660 118,660 120,660 121,660 123,660 125,660 126,660 127,660 128,660 129,660 131,660 133,660 135,660 134,660 132,660 131,660 132,660 133,660 134,660 135,660 134,660 133,660 132,660 130,660 129,660 128,660 127,660 125,660 123,660 121,660 120,660 118,660 117,660 115,660 113,660 112,660 111,660 109,660 108,660 107,660 103,660 102,660 101,660 100,660 101,660 100,660 99,660 98,660 97,660 96,660 95,660 94,660 93,660 92,660 91,660 90,660 88,660 86,660 84,660 82,660 81,660 78,660 76,660 72,660 64,660 63,660 62,660 60,660 59,660 56,660 53,660 51,660 50,660 44,660 43,660 42,660 37,660 36,660 35,660 34,660 30,660 28,660 25,660 24,660 21,660 20,660 21,660 22,660 23,660 22,660 21,660 20,660 19,660 18,660 17,660 15,660 13,660 12,660 13,660 14,660 15,660 14,660 13,660 12,660 8,660 3,660 -2,660 -5,660 -6,660 -7,660 -10,660 -13,660 -15,660 -17,660 -18,660 -19,660 -20,660 -21,660 -22,660 -23,660 -24,660 -25,660 -27,660 -33,660 -34,660 -36,660 -37,660 -38,660 -40,660 -37,660 -33,660 -32,660 -29,660 -24,660 -12,660 -5,660 -4,660 -3,660 -2,660 -10,660 -24,660 -25,660 -26,660 -27,660 -32,660 -33,660 -36,660 -40,660 -40,646 -40,645 -40,644 -40,638 -40,626 -40,625 -40,622 -40,616 -40,617 -40,612 -40,606 -40,602 -40,592 -40,587 -40,585 -40,583 -40,585 -40,593 -40,607 -40,606 -40,603 -40,602 -40,600 -40,605 -40,616 -40,618 -40,620 -40,621 -40,625 -40,631 -40,638 -40,637 -40,633 -40,632 -40,631 -40,629 -40,618 -40,616 -40,614 -40,613 -40,610 -40,604 -40,616 -40,636 -40,660 -40,654 -40,650 -40,651 -40,652 -40,660 -40,637 -40,636 -40,634 -40,575 -40,576 -37,576 -34,576 -23,576 1,576 2,576 21,576 22,576 26,576 43,575 44,575 77,575 89,575 95,575 112,575 117,575 121,575 154,575 155,575 157,575 178,575 203,575 206,575 253,575 256,575 259,575 259,582 258,587 258,588 259,601 259,603 261,632 261,633 264,660 265,660 266,660 268,660 273,660 274,660 277,660 278,660 279,660 280,660 281,660 287,660 288,660 295,660 303,660 304,660 305,660 306,660 308,660 312,660 318,660 320,660 321,660 325,660 326,660 330,660 342,660 343,660 346,660 350,660 356,660 359,660 362,660 363,660 381,660 383,660 399,660 409,660 421,660 422,660 425,660 426,660 429,660 430,660 429,660 428,660 426,660 425,660 422,660 420,660 418,660 415,660 409,660 406,660 405,660 404,660 401,660 400,660 397,660 396,660 394,660 392,660 390,660 389,660 387,660 386,660 384,660 382,660 381,660 354,660 349,660 342,660 340,660 297,660 296,660 295,660 294,660 293,660 292,660 288,660 286,660 287,660 288,660 287,660 286,660 282,660 277,660 276,660 274,660 273,660 271,660 270,660 267,660 265,660 261,660 260,660 259,660 258,660 254,660 251,660 250,660 249,660 248,660 246,660 245,660 244,660 242,660 237,660 236,660 234,660 233,660 234,660 235,660 233,660 237,660 238,660 239,660 240,660 241,660 242,660 243,660 244,660 245,660 247,660 248,660 249,660 250,660 253,660 251,660 249,660 248,660 247,660 246,660 245,660 244,660 242,660 240,660 239,660 237,660 239,660 241,660 246,660 247,660 249,660 246,660 244,660 243,660 242,660 240,660 239,660 237,660 232,660 231,660 227,660 225,660 224,660 222,660 221,660 219,660 220,660 221,660 222,660 221,660 220,660 221,660 222,660 223,660 225,660 235,660 236,660 238,660 239,660 240,660 241,660 243,660 244,660 245,660 244,660 242,660 241,660 239,660 238,660 237,660 236,660 235,660 236,660 235,660 234,660 233,660 232,660 231,660 230,660 229,660 228,660 227,660 224,660 223,660 221,660 220,660 221,660 222,660 223,660 222,660 221,660 220,660 219,660 218,660 216,660 218,660 213,660 212,660 211,660 209,660 208,660 207,660 206,660 205,660 207,660 211,660 212,660 213,660 214,660 216,660 217,660 218,660 217,660 216,660 215,660 214,660 210,660 209,660 208,660 207,660 206,660 207,660 205,660 201,660 200,660 199,660 198,660 200,660 202,660 203,660 202,660 201,660 200,660 199,660 200,660 201,660 202,660 196,660 193,660 192,660 190,660 188,660 187,660 186,660 184,660 185,660 183,660 180,660 179,660 177,660 176,660 175,660 174,660 172,660 171,660 169,660 167,660 168,660 169,660 171,660 175,660 178,660 179,660 180,660 179,660 177,660 174,660 169,660 165,660 163,660 162,660 160,660 159,660 157,660 153,660 150,660 149,660 147,660 148,660 149,660 154,660 153,660 152,660 151,660 150,660 149,660 146,660 144,660 143,660 142,660 139,660 137,660 135,660 132,660 131,660 133,660 135,660 142,660 143,660 144,660 148,660 149,660 152,660 151,660 150,660 146,660 145,660 144,660 145,660 144,660 143,660 142,660 140,660 138,660 141,660 142,660 146,660 147,660 146,660 145,660 144,660 145,660 146,660 148,660 149,660 150,660 152,660 154,660 155,660 156,660 157,660 158,660 160,660 162,660 165,660 169,660 170,660 172,660 174,660 175,660 174,660 173,660 172,660 171,660 170,660 169,660 164,660 163,660 160,660 157,660 156,660 155,660 154,660 150,660 149,660 148,660 147,660 146,660 145,660 140,660 137,660 136,660 134,660 133,660 132,660 134,660 131,660 130,660 129,660 128,660 129,660 130,660 131,660 132,660 133,660 134,660 137,660 138,660 139,660 140,660 141,660 142,660 143,660 145,660 146,660 147,660 148,660 147,660 148,660 149,660 150,660 151,660 152,660 154,660 156,660 158,660 163,660 164,660 165,660 164,660 163,660 162,660 163,660 162,660 161,660 160,660 156,660 155,660 151,660 152,660 151,660 150,660 149,660 148,660 147,660 146,660 145,660 143,660 142,660 141,660 140,660 141,660 138,660 135,660 134,660 131,660 132,660 131,660 130,660 128,660 126,660 125,660 124,660 123,660 122,660 123,660 124,660 125,660 126,660 127,660 128,660 129,660 132,660 134,660 135,660 137,660 139,660 141,660 142,660 143,660 144,660 145,660 149,660 152,660 153,660 156,660 158,660 162,660 166,660 167,660 170,660 171,660 170,660 169,660 168,660 166,660 168,660 169,660 170,660 172,660 173,660 174,660 176,660 173,660 170,660 167,660 165,660 164,660 162,660 161,660 160,660 161,660 163,660 162,660 161,660 159,660 158,660 157,660 155,660 153,660 154,660 156,660 155,660 153,660 152,660 150,660 149,660 148,660 147,660 145,660 146,660 147,660 150,660 151,660 155,660 157,660 158,660 159,660 160,660 162,660 164,660 165,660 166,660 167,660 168,660 166,660 170,660 172,660 173,660 174,660 175,660 178,660 177,660 178,660 179,660 182,660 183,660 184,660 192,660 194,660 195,660 196,660 197,660 198,660 202,660 204,660 205,660 208,660 209,660 208,660 204,660 201,660 200,660 201,660 205,660 206,660 207,660 208,660 209,660 210,660 211,660 212,660 213,660 214,660 215,660 215,659 212,656 211,656 210,656 209,658 207,659 207,658 206,658 207,657 207,656 209,653 210,650 210,648 211,647 211,646 212,640 213,640 213,639 214,637 215,634 215,633 217,631 217,630 217,628 216,626 211,624 209,625 209,626 208,627 208,628 202,628 198,629 195,629 194,629 192,630 187,632 185,636 185,638 184,638 183,641 182,644 183,647 184,649 185,650 186,650 186,651 190,650 192,651 193,651 193,652 194,656 195,657 195,658 195,659 190,660 188,660 186,660 183,660 182,660 181,660 179,660 176,660 175,660 174,660 173,660 172,660 170,660 169,660 168,660 167,660 163,660 162,660 157,660 156,660 155,660 154,660 153,660 152,660 151,660 147,660 148,660 149,660 150,660 148,660 147,660 146,660 145,660 144,660 140,660 142,660 140,660 141,660 139,660 137,660 136,660 134,660 133,660 130,660 131,660 132,660 130,660 132,660 133,660 131,660 130,660 127,660 125,660 124,660 121,660 120,660 117,660 116,660 119,660 121,660 120,660 119,660 118,660 117,660 116,660 112,660 110,660 107,660 106,660 105,660 102,660 100,660 98,660 97,660 96,660 95,660 93,660 88,660 86,660 85,660 87,660 88,660 89,660 90,660 91,660 93,660 97,660 99,660 100,660 103,660 104,660 107,660 109,660 110,660 109,660 110,660 111,660 109,660 107,660"/>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#areaClip)"><rect width="1000" height="620" fill="url(#areaDots)"/></g>
+              <text x="160" y="215" text-anchor="middle" fill="#ffffff" fill-opacity=".45" font-family="'Archivo Black', sans-serif" font-size="18" letter-spacing="3">PA</text>
+              <text x="520" y="420" text-anchor="middle" fill="#ffffff" fill-opacity=".45" font-family="'Archivo Black', sans-serif" font-size="18" letter-spacing="3">NJ</text>
+              <text x="720" y="70" text-anchor="middle" fill="#ffffff" fill-opacity=".45" font-family="'Archivo Black', sans-serif" font-size="18" letter-spacing="3">NY</text>
+            </svg>
+
+            <!-- City dots: the city name shows on hover / keyboard focus. -->
+            <a href="#contact" class="area-dot group" style="left:68.7%;top:45.5%" aria-label="Brooklyn, NY"><span class="area-tip">Brooklyn, NY</span></a>
+            <a href="#contact" class="area-dot group" style="left:63.9%;top:50.5%" aria-label="Staten Island, NY"><span class="area-tip">Staten Island, NY</span></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FREE ESTIMATE: info cards on the left, estimate form on the right (structure from layout 1).
+       The form has no backend yet: point <form action> at the client's form handler (or Formspree etc.) and remove the demo script. -->
+  <section id="contact" class="bg-white py-16 sm:py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-14 items-start">
+
+      <!-- Left: info -->
+      <div class="lg:col-span-5 reveal">
+        <p class="text-brand-600 font-bold uppercase tracking-[0.14em] text-xs sm:text-sm">Get in Touch</p>
+        <h2 class="font-headline font-bold uppercase text-slate-800 text-4xl max-[359px]:text-[30px] max-[299px]:text-[26px] sm:text-5xl leading-[1.02] mt-3">Let&rsquo;s Talk About Your Roof</h2>
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed mt-5">Send us a few details or call <span class="whitespace-nowrap">(908) 570-9537</span>. A new roof, flat roof, copper, siding or a renovation: tell us what you need and we&rsquo;ll get back to you with a free&nbsp;estimate.</p>
+
+        <!-- Phone (908) 570-9537: their Google listing (the only phone anywhere; 908 = north-central NJ). Address: the Google
+             listing's 719 90th Ave N, St. Petersburg, FL does not match their own "Serving NY, NJ & PA", so no address is shown,
+             only the states. No email, no hours (Google's "Open 24 hours" is not repeated), so the other cards are Instagram
+             messages and the trades. ASK for base town, email + hours. -->
+        <div class="mt-8 space-y-3">
+          <div class="info-card flex items-center gap-4 rounded-md bg-slate-50 ring-1 ring-slate-200 p-4">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-brand-600/10 text-brand-600">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            </span>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-slate-500">Service Area</p>
+              <p class="text-sm sm:text-base font-bold text-slate-800">New York &middot; New Jersey<br><span class="font-semibold text-slate-600">Pennsylvania</span></p>
+            </div>
+          </div>
+
+          <div class="info-card flex items-center gap-4 rounded-md bg-slate-50 ring-1 ring-slate-200 p-4">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-brand-600/10 text-brand-600">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+            </span>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-slate-500">Call Us</p>
+              <a href="tel:9085709537" class="inline-block py-2 -my-2 text-base font-extrabold text-slate-800 hover:text-brand-600 transition-colors">(908) 570-9537</a>
+            </div>
+          </div>
+
+          <div class="info-card flex items-center gap-4 rounded-md bg-slate-50 ring-1 ring-slate-200 p-4">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-brand-600/10 text-brand-600">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.5L3 20.5l1.5-5.4A8.5 8.5 0 1 1 21 11.5Z"/></svg>
+            </span>
+            <div class="min-w-0">
+              <p class="text-xs font-bold uppercase tracking-wider text-slate-500">Message Us</p>
+              <a href="https://www.instagram.com/arvexroofingandcontracting/" target="_blank" rel="noopener" class="block truncate text-base font-extrabold text-slate-800 hover:text-brand-600 transition-colors">On Instagram</a>
+            </div>
+          </div>
+
+          <div class="info-card flex items-center gap-4 rounded-md bg-slate-50 ring-1 ring-slate-200 p-4">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-brand-600/10 text-brand-600">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20.5h18M4.5 20.5V11L9 7.5l4.5 3.5v9.5M13.5 20.5V5.5h6v15"/></svg>
+            </span>
+            <div class="min-w-0">
+              <p class="text-xs font-bold uppercase tracking-wider text-slate-500">We Do</p>
+              <p class="text-sm sm:text-base font-bold text-slate-800">Roofing &middot; Copper &middot; Interiors</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: form card -->
+      <div class="lg:col-span-7 reveal" style="--reveal-delay:100ms">
+        <div class="relative overflow-hidden rounded-md bg-white ring-1 ring-slate-200 shadow-xl p-7 sm:p-10">
+          <div class="absolute inset-x-0 top-0 h-1.5 bg-brand-600"></div>
+
+          <div class="mb-7">
+            <h3 class="font-headline font-semibold uppercase text-slate-800 text-3xl max-[379px]:text-[24px] max-[319px]:text-[21px]">Get a Free Estimate</h3>
+            <p class="text-sm text-slate-500 mt-1.5">Roofing &middot; Copper &middot; Siding &middot; Interiors</p>
+          </div>
+
+          <form id="estimate-form" class="space-y-4" action="#" method="post">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div>
+                <label for="est-name" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Full Name *</label>
+                <input id="est-name" name="name" type="text" required autocomplete="name" placeholder="John Doe" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition">
+              </div>
+              <div>
+                <label for="est-phone" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Phone Number *</label>
+                <input id="est-phone" name="phone" type="tel" required autocomplete="tel" placeholder="(555) 000-0000" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition">
+              </div>
+            </div>
+
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div>
+                <label for="est-email" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Email Address *</label>
+                <input id="est-email" name="email" type="email" required autocomplete="email" placeholder="john@example.com" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition">
+              </div>
+              <div>
+                <label for="est-service" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Service Needed *</label>
+                <select id="est-service" name="service" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition">
+                  <option value="">Select a service</option>
+                  <option>Shingle Roofing</option>
+                  <option>Flat Roofing</option>
+                  <option>Copper &amp; Sheet Metal</option>
+                  <option>Siding</option>
+                  <option>Kitchens &amp; Baths</option>
+                  <option>Interior Renovations</option>
+                  <option>Something Else</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label for="est-address" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Property Address</label>
+              <input id="est-address" name="address" type="text" autocomplete="street-address" placeholder="123 Main St, City, ST" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition">
+            </div>
+
+            <div>
+              <label for="est-details" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Project Details</label>
+              <textarea id="est-details" name="details" rows="3" placeholder="Tell us about your project..." class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition"></textarea>
+            </div>
+
+            <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-headline font-medium uppercase tracking-wide text-lg py-3.5 rounded-md shadow-md transition-colors">
+              Send My Request
+            </button>
+            <p id="estimate-status" class="hidden rounded-md bg-brand-600/10 text-brand-700 text-sm font-semibold px-4 py-3" role="status">Thanks! Your request was received &mdash; we&rsquo;ll get back to you shortly. Prefer to talk? Call (908) 570-9537.</p>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER: standard roofing footer (top bar, 4 link columns, bottom bar). Only list services, areas and pages the client really has. -->
+  <footer class="relative bg-brand-950 text-white/60 text-sm">
+    <!-- Roof peak rising into the section above -->
+    <div class="roof-peak-up" aria-hidden="true"></div>
+
+    <!-- Top bar: brand, phone, CTA -->
+    <div class="border-b border-brand-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-5">
+        <a href="#top" class="flex items-center gap-3">
+          <!-- {{LOGO}}: the same real Instagram logo as the header (its black background blends into the dark footer). -->
+          <img src="images/logo-mark.jpg" alt="" class="w-12 h-12 max-[379px]:w-10 max-[379px]:h-10 max-[299px]:w-8 max-[299px]:h-8 shrink-0 object-contain rounded-md">
+          <span class="leading-none">
+            <span class="block font-display font-bold text-[21px] max-[379px]:text-[18px] max-[299px]:text-[14px] text-white whitespace-nowrap">ARVEX</span>
+            <span class="block text-[9px] tracking-[0.18em] uppercase text-white/50 mt-1 whitespace-nowrap">Roofing &amp; Contracting</span>
+          </span>
+        </a>
+        <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
+          <a href="tel:9085709537" class="font-extrabold text-xl text-white hover:text-brand-500 transition-colors">(908) 570-9537</a>
+          <a href="#contact" class="bg-brand-600 hover:bg-brand-700 text-white font-bold px-6 py-3 rounded-md transition-colors text-xs uppercase tracking-wider shadow-md">Free Estimate</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Link columns -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid grid-cols-2 md:grid-cols-4 gap-10" data-stagger>
+      <div class="reveal-fade">
+        <h4 class="font-headline font-medium text-white uppercase mb-4 text-base tracking-wider">Services</h4>
+        <ul class="space-y-2.5">
+          <!-- one <li> per service shown -->
+          <li><a href="#services" class="hover:text-white transition-colors">Shingle Roofing</a></li>
+          <li><a href="#services" class="hover:text-white transition-colors">Flat Roofing</a></li>
+          <li><a href="#services" class="hover:text-white transition-colors">Copper &amp; Sheet Metal</a></li>
+          <li><a href="#services" class="hover:text-white transition-colors">Siding</a></li>
+          <li><a href="#services" class="hover:text-white transition-colors">Kitchens &amp; Baths</a></li>
+          <li><a href="#services" class="hover:text-white transition-colors">Interior Renovations</a></li>
+        </ul>
+      </div>
+      <div class="reveal-fade">
+        <h4 class="font-headline font-medium text-white uppercase mb-4 text-base tracking-wider">Service Area</h4>
+        <ul class="space-y-2.5">
+          <!-- one <li> per area: the states in their captions + the two places they hashtag. ASK which towns. -->
+          <li><a href="#areas" class="hover:text-white transition-colors">New York</a></li>
+          <li><a href="#areas" class="hover:text-white transition-colors">Brooklyn, NY</a></li>
+          <li><a href="#areas" class="hover:text-white transition-colors">Staten Island, NY</a></li>
+          <li><a href="#areas" class="hover:text-white transition-colors">New Jersey</a></li>
+          <li><a href="#areas" class="hover:text-white transition-colors">Pennsylvania</a></li>
+        </ul>
+      </div>
+      <div class="reveal-fade">
+        <h4 class="font-headline font-medium text-white uppercase mb-4 text-base tracking-wider">Company</h4>
+        <ul class="space-y-2.5">
+          <!-- mirror the site's real sections only -->
+          <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+          <li><a href="#projects" class="hover:text-white transition-colors">Projects</a></li>
+          <li><a href="#reviews" class="hover:text-white transition-colors">Reviews</a></li>
+          <li><a href="#areas" class="hover:text-white transition-colors">Service Area</a></li>
+          <li><a href="#contact" class="hover:text-white transition-colors">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="reveal-fade">
+        <h4 class="font-headline font-medium text-white uppercase mb-4 text-base tracking-wider">Contact</h4>
+        <p class="leading-relaxed mb-3">Serving NY, NJ &amp; PA</p>
+        <a href="tel:9085709537" class="block hover:text-white transition-colors">(908) 570-9537</a>
+        <a href="https://www.instagram.com/arvexroofingandcontracting/" target="_blank" rel="noopener" class="block mt-1 hover:text-white transition-colors">Instagram</a>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="border-t border-brand-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/45 text-center sm:text-left">
+        <span>&copy; 2026 Arvex Roofing &amp; Contracting. All rights reserved.</span>
+        <span>Above the Rest &middot; NY &middot; NJ &middot; PA</span>
+      </div>
+    </div>
+  </footer>
+
+  <style>
+    /* ===== Motion & interaction layer (client-specific; layout, spacing and type untouched) ===== */
+    /* Anchor links glide, and stop below the 80px sticky header instead of under it */
+    html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+    :focus-visible { outline: 2px solid #cc1f2b; outline-offset: 3px; }
+
+    /* Scroll reveal: content eases up/in once as it enters the viewport (hidden only while JS runs) */
+    .js .reveal { opacity: 0; transform: translateY(26px); transition: opacity .7s cubic-bezier(.16,.8,.3,1), transform .7s cubic-bezier(.16,.8,.3,1); transition-delay: var(--reveal-delay, 0ms); }
+    /* Opacity-only for the services circle/tiles: the curved-cutout script measures live positions */
+    .js .reveal-fade { opacity: 0; transition: opacity .7s ease-out; transition-delay: var(--reveal-delay, 0ms); }
+    .js .reveal.is-visible, .js .reveal-fade.is-visible { opacity: 1; transform: none; }
+
+    /* Hero: photo settles from a slight zoom, copy lines rise in one after another */
+    .hero-img { animation: hero-zoom 1.8s cubic-bezier(.2,.7,.2,1) both; }
+    .hero-in > * { animation: rise-in .8s cubic-bezier(.16,.8,.3,1) both; }
+    .hero-in > :nth-child(2) { animation-delay: .12s; }
+    .hero-in > :nth-child(3) { animation-delay: .24s; }
+    @keyframes hero-zoom { from { transform: scale(1.07); } to { transform: scale(1); } }
+    @keyframes rise-in { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+
+    /* Header deepens its shadow once the page scrolls */
+    #site-header { transition: box-shadow .3s ease; }
+    #site-header.is-scrolled { box-shadow: 0 8px 24px -12px rgba(18,16,17,.35); }
+
+    /* Desktop nav: underline slides in under the hovered link */
+    header nav > a, header nav > .group > button { position: relative; }
+    header nav > a::after, header nav > .group > button::after { content: ""; position: absolute; left: 0; right: 0; bottom: 16px; height: 2px; background: #cc1f2b; transform: scaleX(0); transform-origin: left; transition: transform .25s ease; }
+    header nav > a:hover::after, header nav > .group:hover > button::after, header nav > .group:focus-within > button::after { transform: scaleX(1); }
+    /* Dropdowns drop in slightly instead of just appearing */
+    header nav .group > div { transform: translateY(6px); transition: opacity .2s ease, transform .2s ease, visibility .2s; }
+    header nav .group:hover > div, header nav .group:focus-within > div { transform: none; }
+
+    /* Mobile drawer: slides open/closed instead of snapping */
+    @media (max-width: 1023.98px) {
+      #mobile-menu { display: grid; grid-template-rows: 0fr; opacity: 0; visibility: hidden; border-top-width: 0; transition: grid-template-rows .32s ease, opacity .25s ease, visibility .32s; }
+      #mobile-menu.is-open { grid-template-rows: 1fr; opacity: 1; visibility: visible; border-top-width: 1px; }
+      /* the inner list's own py-3 padding would otherwise leave a 24px strip when "closed" */
+      .mobile-menu-inner { min-height: 0; overflow: hidden; padding-top: 0; padding-bottom: 0; transition: padding .32s ease; }
+      #mobile-menu.is-open .mobile-menu-inner { max-height: calc(100vh - 92px); max-height: calc(100dvh - 92px); overflow-y: auto; overscroll-behavior: contain; padding-top: .75rem; padding-bottom: .75rem; }
+    }
+    .menu-btn .bar { transform-box: fill-box; transform-origin: center; transition: transform .3s ease, opacity .2s ease; }
+    .menu-btn[aria-expanded="true"] .bar-1 { transform: translateY(5px) rotate(45deg); }
+    .menu-btn[aria-expanded="true"] .bar-2 { opacity: 0; }
+    .menu-btn[aria-expanded="true"] .bar-3 { transform: translateY(-5px) rotate(-45deg); }
+
+    /* Buttons: every solid brand button gets a small lift + press */
+    a.bg-brand-600, button.bg-brand-600 { transition: background-color .2s ease, transform .2s ease, box-shadow .2s ease; }
+    a.bg-brand-600:active, button.bg-brand-600:active { transform: translateY(0) scale(.98); }
+    .btn-arrow svg, a[href^="tel:"] > svg:last-child, a.bg-brand-600 > svg:last-child { transition: transform .2s ease; }
+
+    /* Review arrows: dim at the start/end of the row */
+    #reviews-prev:disabled, #reviews-next:disabled { opacity: .4; pointer-events: none; }
+    /* Client tweak (from HV Roofing): only 1 card, so hide the arrows when neither can scroll */
+    div:has(> #reviews-prev:disabled + #reviews-next:disabled) { display: none !important; }
+
+    /* Form: success message fades in, button shows a sending state */
+    #estimate-status:not(.hidden) { animation: rise-in .45s ease both; }
+    #estimate-form button[type="submit"][aria-busy="true"] { opacity: .75; cursor: progress; }
+
+    /* Footer links nudge right; a little invisible padding makes them easier to tap without moving anything */
+    footer ul a { display: inline-block; padding: 3px 0; margin: -3px 0; transition: color .2s ease, transform .2s ease; }
+    footer .md\:grid-cols-4 > div:last-child > a { padding: 3px 0; margin: -3px 0; }
+    /* Contact cards: phone and email links get a taller tap area without moving anything */
+    .info-card a[href^="tel:"], .info-card a[href^="mailto:"] { display: inline-block; padding: 8px 0; margin: -8px 0; }
+    /* ...but the email keeps the template's truncate on narrow phones (inline-block needs a max-width for the ellipsis to apply) */
+    .info-card a[href^="mailto:"] { max-width: 100%; vertical-align: top; }
+    /* Reviews: the "Leave a Google Review" link gets a taller tap area without moving anything */
+    #reviews a[href^="https:"], #reviews a[href^="tel:"] { display: inline-block; padding: 9px 0; margin: -9px 0; }
+    /* Header phone (768-1279px, where "Call us today" is hidden): taller invisible tap zone for any pointer, nothing moves */
+    header a[href^="tel:"].md\:block { padding: 10px 0; margin: -10px 0; }
+    /* About: the phone link next to the button gets the same taller tap area */
+    #about a[href^="tel:"] { padding: 10px 0; margin: -10px 0; }
+    /* Map dots: bigger invisible hit area for fingers (the visible dot stays 14px). The zone is sized by script (--hit) to half the gap to the nearest dot, so close towns never steal each other's taps (kept from the Wellson build) */
+    .area-dot::before { content: ""; position: absolute; inset: calc(var(--hit, 12px) * -1); border-radius: 9999px; }
+    /* Phones and every touch screen (landscape phones and iPads are 640px+): 16px form text stops iOS Safari zooming the page when a field is tapped */
+    @media (max-width: 639.98px), (pointer: coarse) { #estimate-form input, #estimate-form select, #estimate-form textarea { font-size: 16px; } }
+    /* Touch screens: footer links and phone numbers get ~30px hit areas (rows sit 30px apart, so the areas meet without overlapping); header phone gets a taller tap zone */
+    @media (pointer: coarse) {
+      footer ul a, footer .md\:grid-cols-4 > div:last-child > a { padding: 5px 0; margin: -5px 0; }
+      footer a[href^="tel:"].text-xl { display: inline-block; padding: 8px 0; margin: -8px 0; }
+      header a[href^="tel:"].md\:block { padding: 10px 0; margin: -10px 0; }
+    }
+    /* Landscape phones (short screens, 640px+ wide): a little more room under the hero copy so the slide dots never touch the paragraph */
+    @media (min-width: 640px) and (max-height: 500px) { .cut-hero > div.max-w-7xl { padding-bottom: 7.5rem; } }
+    /* Same for short tablet-landscape screens below 1024px (720x540 left only ~12px between the dots and the copy) */
+    @media (min-width: 640px) and (max-width: 1023.98px) and (max-height: 640px) { .cut-hero > div.max-w-7xl { padding-bottom: 7.5rem; } }
+    /* Phones: the map is small and the dots sit close together, so the dots shrink a little to stay apart (their tap zones are sized by the script below) */
+    @media (max-width: 639.98px) { a.area-dot { width: 10px; height: 10px; margin: -5px 0 0 -5px; box-shadow: 0 0 0 3px rgba(255,90,96,.28); } }
+    /* Under 360px the dots shrink once more (kept from the Wellson build, harmless with a single dot) */
+    @media (max-width: 359.98px) { a.area-dot { width: 8px; height: 8px; margin: -4px 0 0 -4px; box-shadow: 0 0 0 2px rgba(255,90,96,.28); } }
+
+    /* Hover-only effects: skipped on touch screens so nothing "sticks" after a tap */
+    @media (hover: hover) {
+      a.bg-brand-600:hover, button.bg-brand-600:hover { transform: translateY(-2px); box-shadow: 0 10px 22px -10px rgba(18,16,17,.45); }
+      .btn-arrow:hover svg, a[href^="tel:"]:hover > svg:last-child, a.bg-brand-600:hover > svg:last-child { transform: translateX(3px); }
+      .stat-tile { transition: transform .25s ease, background-color .25s ease, box-shadow .25s ease; }
+      .stat-tile:hover { transform: translateY(-3px); background: #fff; box-shadow: 0 12px 24px -14px rgba(18,16,17,.35); }
+      .stat-tile svg { transition: transform .3s ease; }
+      .stat-tile:hover svg { transform: scale(1.15); }
+      .review-card { transition: transform .25s ease, box-shadow .25s ease; }
+      .review-card:hover { transform: translateY(-4px); box-shadow: 0 18px 32px -16px rgba(18,16,17,.35); }
+      .info-card { transition: box-shadow .2s ease, background-color .2s ease; }
+      .info-card:hover { background: #fff; box-shadow: 0 0 0 1px #cc1f2b, 0 10px 22px -14px rgba(18,16,17,.4); }
+      .info-card > span { transition: background-color .2s ease, color .2s ease; }
+      .info-card:hover > span { background: #cc1f2b; color: #fff; }
+      .photo-hover > img { transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+      .photo-hover:hover > img { transform: scale(1.02); }
+      footer ul a:hover { transform: translateX(3px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .js .reveal, .js .reveal-fade { opacity: 1; transform: none; transition: none; }
+      .hero-img, .hero-in > *, #estimate-status:not(.hidden) { animation: none; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+
+    /* Footer roof peak: the dark footer rises into the section above */
+    .roof-peak-up { position: absolute; left: 50%; bottom: 100%; width: 14rem; height: 2.25rem; transform: translateX(-50%); background: #121011; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+    @media (max-width: 640px) { .roof-peak-up { width: 9rem; height: 1.5rem; } }
+    /* Service-area map dots */
+    .area-dot { position: absolute; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 9999px; background: #ff5a60; box-shadow: 0 0 0 4px rgba(255,90,96,.28); }
+    .area-dot::after { content: ""; position: absolute; inset: -4px; border-radius: 9999px; border: 2px solid #ff5a60; opacity: 0; animation: area-pulse 2.6s ease-out infinite; }
+    .area-dot:hover, .area-dot:focus-visible { background: #ffc9cb; outline: none; z-index: 2; }
+    .area-tip { position: absolute; left: 50%; bottom: calc(100% + 10px); transform: translateX(-50%); background: #fff; color: #211b1c; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 6px; white-space: nowrap; box-shadow: 0 6px 16px rgba(0,0,0,.25); opacity: 0; pointer-events: none; transition: opacity .15s; }
+    .area-dot:hover .area-tip, .area-dot:focus-visible .area-tip { opacity: 1; }
+    @keyframes area-pulse { 0% { transform: scale(.6); opacity: .8; } 100% { transform: scale(2.2); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .area-dot::after { animation: none; } }
+    /* Reviews track: line up with the page container on the left, run off the right edge, hide the scrollbar */
+    .reviews-track { padding-left: max(1rem, calc((100% - 72rem) / 2 + 2rem)); padding-right: 1rem; scroll-padding-left: max(1rem, calc((100% - 72rem) / 2 + 2rem)); scrollbar-width: none; }
+    .reviews-track::-webkit-scrollbar { display: none; }
+    /* Services tiles 2 and 3: curved cutout that follows the round collage (--cx/--cy/--cr are set by script) */
+    @media (min-width: 1024px) {
+      .cut-svc {
+        -webkit-mask-image: radial-gradient(circle at var(--cx, 100%) var(--cy, 0), transparent var(--cr, 0px), #000 calc(var(--cr, 0px) + 0.6px));
+        mask-image: radial-gradient(circle at var(--cx, 100%) var(--cy, 0), transparent var(--cr, 0px), #000 calc(var(--cr, 0px) + 0.6px));
+      }
+    }
+    /* Roof-pitch cuts: diagonal corners on photos + hero, and a peak notch between sections */
+    .cut-tl { clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%, 0 22%); }
+    .cut-tr { clip-path: polygon(0 0, 86% 0, 100% 22%, 100% 100%, 0 100%); }
+    .cut-hero { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3rem), calc(100% - 7rem) 100%, 0 100%); }
+    .roof-peak { position: absolute; left: 50%; bottom: 0; width: 14rem; height: 2.25rem; transform: translateX(-50%); background: #fff; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+    @media (max-width: 640px) { .cut-hero { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2rem), calc(100% - 4rem) 100%, 0 100%); } .roof-peak { width: 9rem; height: 1.5rem; } }
+    .marquee-track { animation: marquee-rtl 30s linear infinite; }
+    .marquee-track:hover { animation-play-state: paused; }
+    @keyframes marquee-rtl { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    .marquee-edge {
+      position: absolute; top: 0; bottom: 0; width: 7rem; pointer-events: none; z-index: 1;
+      -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+    }
+    /* Text stand-ins; replace each <li> with an <img> of the brand's logo (grayscale, ~h-10) */
+    .brand-logo { font-family: 'Archivo Black', system-ui, sans-serif; font-weight: 400; font-size: 1.6rem; color: #94a3b8; white-space: nowrap; }
+    @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
+  </style>
+
+  <script>
+    // Services circle: the 4 photo segments crossfade through this pool (list them in segment order).
+    // Add or remove any number of the client's photos (5 or more, or the circle stays still) — the circle never depends on how many services there are.
+    const CIRCLE_PHOTOS = [
+      // ALL STOCK (Unsplash Scaj0T40nFI, photo-1698248476376, photo-1618832515490, photo-1611495238157, G8tyblQ4p04,
+      // osEuBLR0Ey4, Et-cTdVHF5U + the siding tile), NOT their work. Swap for their own job photos.
+      'images/circle-1.jpg',
+      'images/circle-brownstones.jpg',
+      'images/circle-kitchen-reno.jpg',
+      'images/circle-flat-roofs.jpg',
+      'images/circle-3.jpg',
+      'images/circle-4.jpg',
+      'images/alt-red-house.jpg',
+      'images/tile-siding.jpg'
+    ];
+    (function () {
+      const segs = [...document.querySelectorAll('.circle-seg')];
+      const n = CIRCLE_PHOTOS.length;
+      if (segs.length === 0 || n <= segs.length) return;
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const layers = segs.map(s => [...s.querySelectorAll('img')]);
+      const front = segs.map(() => 0);   // which of the 2 stacked <img> is currently visible
+      let t = 0;
+      setInterval(() => {
+        t++;
+        segs.forEach((_, k) => setTimeout(() => {
+          const [a, b] = [layers[k][front[k]], layers[k][1 - front[k]]];
+          const next = new Image();
+          next.onload = () => {
+            b.src = next.src;
+            b.classList.remove('opacity-0'); b.style.transition = 'opacity 1s'; b.style.opacity = 1;
+            a.style.transition = 'opacity 1s'; a.style.opacity = 0;
+            front[k] = 1 - front[k];
+          };
+          next.src = CIRCLE_PHOTOS[(t + k) % n];
+        }, k * 500));
+      }, 4500);
+    })();
+
+    // Services tiles 2 and 3: cut a curve out of each tile's edge that follows the round collage,
+    // so the shape stays matched whatever the paragraph length or screen width.
+    (function () {
+      const tiles = [...document.querySelectorAll('.cut-svc')];
+      const circle = document.getElementById('svc-circle');
+      const GAP = 16; // space between the circle and the tiles
+      if (!tiles.length || !circle) return;
+      function fit() {
+        if (!window.matchMedia('(min-width: 1024px)').matches) {
+          tiles.forEach(tile => ['--cx', '--cy', '--cr'].forEach(v => tile.style.removeProperty(v)));
+          return;
+        }
+        const c = circle.getBoundingClientRect();
+        tiles.forEach(tile => {
+          const t = tile.getBoundingClientRect();
+          tile.style.setProperty('--cx', (c.left + c.width / 2 - t.left) + 'px');
+          tile.style.setProperty('--cy', (c.top + c.height / 2 - t.top) + 'px');
+          tile.style.setProperty('--cr', (c.width / 2 + GAP) + 'px');
+        });
+      }
+      fit();
+      window.addEventListener('resize', fit);
+      window.addEventListener('load', fit);
+      if (window.ResizeObserver) {
+        // tiles shrink/grow when the paragraph changes length, so watch them as well as the circle and section
+        const ro = new ResizeObserver(fit);
+        [...tiles, circle, document.getElementById('services')].forEach(el => ro.observe(el));
+      }
+    })();
+
+    // Reviews: arrow buttons scroll the row by one card
+    (function () {
+      const track = document.getElementById('reviews-track');
+      if (!track) return;
+      const step = dir => {
+        const card = track.querySelector('article');
+        const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+        track.scrollBy({ left: dir * (card.getBoundingClientRect().width + gap), behavior: 'smooth' });
+      };
+      const prev = document.getElementById('reviews-prev');
+      const next = document.getElementById('reviews-next');
+      prev.addEventListener('click', () => step(-1));
+      next.addEventListener('click', () => step(1));
+      // Dim an arrow when there's nothing further to scroll in that direction
+      const sync = () => {
+        const max = track.scrollWidth - track.clientWidth - 2;
+        prev.disabled = track.scrollLeft <= 2;
+        next.disabled = track.scrollLeft >= max;
+        // with only a couple of reviews every card fits on wider screens; hide the arrows rather than show two dead buttons
+        prev.parentElement.style.visibility = max <= 0 ? 'hidden' : '';
+      };
+      track.addEventListener('scroll', sync, { passive: true });
+      window.addEventListener('resize', sync);
+      sync();
+    })();
+
+    // Service tiles: jump to the estimate form with that service already selected
+    (function () {
+      const select = document.getElementById('est-service');
+      document.querySelectorAll('.svc-tile').forEach(tile => {
+        tile.addEventListener('click', () => {
+          const name = tile.querySelector('h3').textContent.trim();
+          const opt = [...select.options].find(o => o.textContent.trim() === name);
+          if (opt) select.value = opt.value || opt.textContent;
+        });
+      });
+    })();
+
+    // Estimate form: DEMO ONLY. Shows the success message; replace with a real submit (form action / fetch to the client's handler).
+    (function () {
+      const form = document.getElementById('estimate-form');
+      const status = document.getElementById('estimate-status');
+      if (!form) return;
+      const submit = form.querySelector('button[type="submit"]');
+      const label = submit.textContent;
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        submit.setAttribute('aria-busy', 'true');
+        submit.disabled = true;
+        submit.textContent = 'Sending…';
+        setTimeout(() => {
+          submit.removeAttribute('aria-busy');
+          submit.disabled = false;
+          submit.textContent = label;
+          status.classList.remove('hidden');
+          form.reset();
+        }, 700);
+      });
+    })();
+
+    // Reveal-on-scroll: fades/slides .reveal / .reveal-fade elements in once as they enter the viewport.
+    // Children of a [data-stagger] container come in one after another.
+    (function () {
+      document.querySelectorAll('[data-stagger]').forEach(group => {
+        [...group.children].filter(c => c.matches('.reveal, .reveal-fade'))
+          .forEach((c, i) => c.style.setProperty('--reveal-delay', (i * 90) + 'ms'));
+      });
+      // Service tiles stagger in the order they appear
+      document.querySelectorAll('.svc-tile').forEach((t, i) => t.style.setProperty('--reveal-delay', (i * 80) + 'ms'));
+      const els = [...document.querySelectorAll('.reveal, .reveal-fade')];
+      if (!('IntersectionObserver' in window)) { els.forEach(el => el.classList.add('is-visible')); return; }
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+      els.forEach(el => io.observe(el));
+    })();
+
+    // Map dots: each dot's invisible tap zone (--hit) reaches at most halfway to its nearest neighbour (max 12px),
+    // so close towns on a small map never steal each other's taps. Recomputed when the map changes size.
+    (function () {
+      const dots = [...document.querySelectorAll('.area-dot')];
+      if (dots.length < 2) return;
+      const fit = () => {
+        const r = dots.map(d => d.getBoundingClientRect());
+        dots.forEach((d, i) => {
+          let near = Infinity;
+          r.forEach((o, j) => { if (j !== i) near = Math.min(near, Math.hypot(o.x - r[i].x, o.y - r[i].y)); });
+          const scale = r[i].width / (d.offsetWidth || r[i].width); // the map is scaled 1.12x on desktop
+          const hit = Math.max(0, Math.min(12, Math.floor((near / 2 - r[i].width / 2) / scale)));
+          d.style.setProperty('--hit', hit + 'px');
+        });
+      };
+      fit();
+      if (window.ResizeObserver) new ResizeObserver(fit).observe(dots[0].parentElement);
+      else window.addEventListener('resize', fit);
+    })();
+
+    // Header: stronger shadow once the page has scrolled
+    (function () {
+      const header = document.getElementById('site-header');
+      const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+
+    // Mobile menu: animated open/close; closes on link tap, Escape, outside tap, or when resizing up to desktop
+    (function () {
+      const btn = document.getElementById('menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      const setOpen = open => {
+        menu.classList.toggle('is-open', open);
+        btn.setAttribute('aria-expanded', open);
+        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      };
+      btn.addEventListener('click', () => setOpen(btn.getAttribute('aria-expanded') !== 'true'));
+      // Collapsing the menu mid-scroll cancels the browser's own anchor jump, so close first, then scroll ourselves
+      menu.querySelectorAll('a').forEach(a => a.addEventListener('click', e => {
+        const hash = a.getAttribute('href');
+        const target = hash && hash.startsWith('#') && hash.length > 1 && document.querySelector(hash);
+        setOpen(false);
+        if (!target) return;
+        e.preventDefault();
+        // wait for the drawer to finish collapsing, otherwise the page shifts up under the scroll and overshoots
+        setTimeout(() => {
+          target.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+          history.pushState(null, '', hash);
+        }, 340);
+      }));
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && menu.classList.contains('is-open')) { setOpen(false); btn.focus(); } });
+      document.addEventListener('click', e => { if (menu.classList.contains('is-open') && !e.target.closest('#site-header')) setOpen(false); });
+      window.matchMedia('(min-width: 1024px)').addEventListener('change', e => { if (e.matches) setOpen(false); });
+    })();
+  </script>
+</body>
+</html>
